@@ -1,9 +1,9 @@
 {
-  "name": "redux-simple-starter",
+  "name": "99-chairs-challenge",
   "version": "1.0.0",
-  "description": "Simple starter package for Redux with React and Babel support",
+  "description": "Coding assessment",
   "main": "index.js",
-  "repository": "git@github.com:StephenGrider/ReduxSimpleStarter.git",
+  "repository": "",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
@@ -27,11 +27,15 @@
   },
   "dependencies": {
     "babel-preset-stage-1": "^6.1.18",
+    "bluebird": "^3.5.1",
     "lodash": "^3.10.1",
+    "moment": "^2.19.2",
+    "prop-types": "^15.6.0",
     "react": "^0.14.3",
     "react-dom": "^0.14.3",
     "react-redux": "4.3.0",
     "react-router": "^2.0.1",
-    "redux": "^3.0.4"
+    "redux": "^3.0.4",
+    "url": "^0.11.0"
   }
 }
